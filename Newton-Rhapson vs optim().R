@@ -64,9 +64,9 @@ start4
 
 
 # Here I run optim() with each method to maximize the likelihood, and make a table (Num_Its)
-# the number of iterations each method required to get the solution.
-# As expected, Newton's method gets the solution in less iterations than any of the 
-# methods available through optim()
+# of the number of iterations each method required to get the solution.
+# As expected, Newton's method gets the solution in fewer iterations than any of the 
+# methods available through optim().
 
 
 # The optim function finds a minimum, so I will tell it to optimize the negative log likelihood
