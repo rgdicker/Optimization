@@ -1,8 +1,8 @@
 # In R, the optim function has several options for the optimization method to use, 
 # but doesn't offer Newton's method as an option. Newton's method should have a quadratic
 # convergence rate and thus be faster than all the optim() methods, so here I write an
-# implementation of Newton's method and compare it to the optim() methods using the
-# test doinf maximum likelihood estimation on the Weibull distribution.
+# implementation of Newton's method and compare it to the optim() methods by
+# doing maximum likelihood estimation on the Weibull distribution.
 
 
 
